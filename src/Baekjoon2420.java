@@ -1,7 +1,6 @@
-import java.math.BigInteger;
-import java.util.*;
+import java.util.Scanner;
 
-public class Main {
+public class Baekjoon2420 {
     public static void main(String[] args) {
         long number1, number2;
         Scanner sc = new Scanner(System.in);
