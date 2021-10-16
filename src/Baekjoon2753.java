@@ -1,6 +1,6 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class Main {
+public class Baekjoon2753 {
     static int solution (int num) {
         int answer ;
         if ((num % 4 == 0&&num % 100 != 0) || (num % 400 == 0)) {
