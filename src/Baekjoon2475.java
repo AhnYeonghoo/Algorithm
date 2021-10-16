@@ -1,7 +1,6 @@
-import java.math.BigInteger;
 import java.util.*;
 
-public class Main {
+public class Baekjoon2475 {
     public static void main(String[] args) {
         String[] number;
         int result = 0;

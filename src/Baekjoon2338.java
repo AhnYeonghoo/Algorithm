@@ -11,5 +11,8 @@ public class Baekjoon2338 {
         System.out.println(number1.subtract(number2));
         System.out.println(number1.multiply(number2));
 
+
+
+
     }
 }
