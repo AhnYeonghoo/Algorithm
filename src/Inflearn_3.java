@@ -1,7 +1,6 @@
 import java.util.*;
 
-public class Main {
-
+public class Inflearn_3 {
     static String Solution (String str) {
         String answer = "";
         int min = Integer.MIN_VALUE;
