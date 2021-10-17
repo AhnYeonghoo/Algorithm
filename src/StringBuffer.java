@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class WordTurn {
+public class StringBuffer {
     static ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<>();
         for (String x : str) {
