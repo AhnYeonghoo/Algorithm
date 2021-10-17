@@ -1,6 +1,7 @@
-import java.math.BigInteger;
-import java.util.*;
-public class Main {
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class WordTurn {
     static ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<>();
         for (String x : str) {
@@ -20,8 +21,6 @@ public class Main {
         }
         return answer;
     }
-
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
@@ -32,9 +31,5 @@ public class Main {
         for (String x : solution(num, str)) {
             System.out.println(x);
         }
-
     }
-
 }
-
-
