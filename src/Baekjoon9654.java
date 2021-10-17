@@ -1,6 +1,4 @@
-import java.math.BigInteger;
-import java.util.*;
-public class Main {
+public class Baekjoon9654 {
     public static void main(String[] args) {
         System.out.println("SHIP NAME      CLASS          DEPLOYMENT IN SERVICE");
         System.out.println("N2 Bomber      Heavy Fighter  Limited    21       ");
@@ -8,6 +6,7 @@ public class Main {
         System.out.println("NX Cruiser     Medium Fighter Limited    18        ");
         System.out.println("N1 Starfighter Medium Fighter Unlimited  25        ");
         System.out.println("Royal Cruiser  Light Combat   Limited    4         ");
-
-    }
+     }
 }
+
+
