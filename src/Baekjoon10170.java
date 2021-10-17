@@ -1,7 +1,4 @@
-import javax.naming.BinaryRefAddr;
-import java.math.BigInteger;
-import java.util.*;
-public class Main {
+public class Baekjoon10170 {
     public static void main(String[] args) {
         System.out.println("NFC West       W   L  T");
         System.out.println("-----------------------");
@@ -19,7 +16,3 @@ public class Main {
 
     }
 }
-
-
-
-
