@@ -1,6 +1,7 @@
 import java.math.BigInteger;
 import java.util.*;
-public class Main {
+
+public class Baekjoon9653 {
     public static void main(String[] args) {
         System.out.println("    8888888888  888    88888");
         System.out.println("   88     88   88 88   88  88");
