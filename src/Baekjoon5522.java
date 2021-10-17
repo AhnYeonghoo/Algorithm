@@ -1,7 +1,5 @@
-import java.math.BigInteger;
-import java.util.*;
-
-public class Main {
+import java.util.Scanner;
+public class Baekjoon5522 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int result = 0;
@@ -11,6 +9,6 @@ public class Main {
         }
         System.out.println(result);
 
-
     }
 }
+
