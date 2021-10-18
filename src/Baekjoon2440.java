@@ -1,7 +1,5 @@
-import javax.naming.BinaryRefAddr;
-import java.math.BigInteger;
 import java.util.*;
-public class Main {
+public class Baekjoon2440 {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         int n = Sc.nextInt();
@@ -13,7 +11,3 @@ public class Main {
         }
     }
 }
-
-
-
-
