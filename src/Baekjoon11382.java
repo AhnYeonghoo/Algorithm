@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class Baekjoon11382 {
     static long solution (long n1, long n2, long n3) {
         long answer = 0;
         answer = (long)(n1 + n2 + n3);
@@ -16,6 +16,3 @@ public class Main {
 
     }
 }
-
-
-
