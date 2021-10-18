@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class Baekjoon6749 {
     static int solution (int n1, int n2) {
         int answer = 0;
         int temp = n2 - n1;
@@ -15,6 +15,3 @@ public class Main {
 
     }
 }
-
-
-
