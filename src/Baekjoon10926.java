@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class Baekjoon10926 {
     static String solution (String str) {
         String answer = "";
         answer = str +"??!";
@@ -14,6 +14,3 @@ public class Main {
 
     }
 }
-
-
-
