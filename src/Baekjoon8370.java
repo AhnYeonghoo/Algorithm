@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class Baekjoon8370 {
     static int solution (int n1, int k1, int n2, int k2) {
         int answer = 0;
         int sum = 0;
@@ -26,6 +26,3 @@ public class Main {
 
     }
 }
-
-
-
