@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class Baekjoon15964 {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         int n1 = Sc.nextInt();
@@ -9,6 +9,3 @@ public class Main {
 
     }
 }
-
-
-
