@@ -1,6 +1,6 @@
-import java.io.*;
-import java.util.*;
-public class Main {
+import java.util.Scanner;
+
+public class Baekjoon10039 {
     public static void main(String[] args)  {
         Scanner Sc = new Scanner(System.in);
         int result[] = new int[5];
@@ -19,6 +19,3 @@ public class Main {
         System.out.println(sum / 5);
     }
 }
-
-
-
