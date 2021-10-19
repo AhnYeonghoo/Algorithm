@@ -1,7 +1,5 @@
-import java.io.*;
-import java.sql.SQLOutput;
 import java.util.*;
-public class Main {
+public class Baekjoon13752 {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         int n = Sc.nextInt();
@@ -18,6 +16,3 @@ public class Main {
         }
     }
 }
-
-
-
