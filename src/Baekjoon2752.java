@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class Main {
+public class Baekjoon2752 {
     public static void main(String[] args)  {
         Scanner Sc = new Scanner(System.in);
         int result[] = new int[3];
@@ -15,6 +15,3 @@ public class Main {
     }
 
 }
-
-
-
