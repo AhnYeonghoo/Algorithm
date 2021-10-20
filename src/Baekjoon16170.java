@@ -1,8 +1,6 @@
-import java.io.*;
-import java.sql.SQLOutput;
 import java.time.Instant;
 import java.util.*;
-public class Main {
+public class Baekjoon16170 {
     public static void main(String[] args) {
         Instant str = Instant.now();
         String st = str.toString();
@@ -12,10 +10,3 @@ public class Main {
     }
 
 }
-
-
-
-
-
-
-
