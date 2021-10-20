@@ -1,10 +1,7 @@
 import java.io.BufferedReader;
-import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigInteger;
-import java.util.*;
-public class Main {
+public class Baekjoon20499 {
     public static void main(String[] args) throws IOException {
         //Scanner Sc = new Scanner(System.in);
         BufferedReader Bf = new BufferedReader(new InputStreamReader(System.in));
@@ -16,11 +13,3 @@ public class Main {
         else System.out.println("gosu");
     }
 }
-
-
-
-
-
-
-
-
