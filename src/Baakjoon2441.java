@@ -13,5 +13,5 @@ public class Baekjoon2441 {
             }
             System.out.println();
         }
-    }
+    } // cococo
 }
