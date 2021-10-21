@@ -1,7 +1,5 @@
-import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.util.*;
-public class Main {
+public class Baekjoon5596 {
     public static void main(String[] args)  {
         Scanner Sc = new Scanner(System.in);
         int minIn = Sc.nextInt();
@@ -22,11 +20,3 @@ public class Main {
             System.out.println(manResult);
     }
 }
-
-
-
-
-
-
-
-
