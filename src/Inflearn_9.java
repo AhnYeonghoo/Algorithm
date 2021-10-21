@@ -1,13 +1,11 @@
-import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.util.*;
-public class Main {
+public class Inflearn_9 {
     static int solution(String str) {
         int answer = 0;
         for (char x : str.toCharArray()) {
             //if (Character.isDigit(x)) answer += x;
             if (x >= 48 && x <= 57) // 아스키코드 48~57은 영문자임
-               answer = answer * 10 + (x-48);
+                answer = answer * 10 + (x-48);
         }
 
         return answer;
@@ -18,10 +16,3 @@ public class Main {
         System.out.println(solution(str));
     }
 }
-
-
-
-
-
-
-

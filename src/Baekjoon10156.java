@@ -1,4 +1,5 @@
-import java.util.Scanner;pimport java.util.*;
+import java.util.Scanner;
+import java.util.*;
 public class Baekjoon10156 {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
