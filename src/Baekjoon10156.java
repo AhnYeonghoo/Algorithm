@@ -1,7 +1,5 @@
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.util.*;
-public class Main {
+import java.util.Scanner;pimport java.util.*;
+public class Baekjoon10156 {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         int k = Sc.nextInt(); // 과자의 가격
@@ -16,11 +14,3 @@ public class Main {
 
     }
 }
-
-
-
-
-
-
-
-
