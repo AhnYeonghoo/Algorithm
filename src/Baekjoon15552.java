@@ -1,7 +1,7 @@
 import java.io.*;
 
 import java.util.*;
-public class Main {
+public class Baekjoon15552 {
     public static void main(String[] args) throws IOException {
         BufferedReader Bf = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter Bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -22,10 +22,3 @@ public class Main {
 
     }
 }
-
-
-
-
-
-
-
