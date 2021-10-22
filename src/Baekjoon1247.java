@@ -1,7 +1,6 @@
-import java.io.*;
 import java.math.BigInteger;
 import java.util.*;
-public class Main {
+public class Baekjoon1247 {
     public static void main(String[] args)  {
         Scanner Sc = new Scanner(System.in);
         for (int i = 0; i < 3; i++) {
@@ -20,10 +19,3 @@ public class Main {
 
     }
 }
-
-
-
-
-
-
-
