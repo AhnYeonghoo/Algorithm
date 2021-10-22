@@ -12,7 +12,7 @@ public class Baekjoon2010 {
         }
         System.out.println(result-n+1);
 
-
+        //커밋 수정용
 
     }
 }
