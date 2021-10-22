@@ -1,15 +1,5 @@
-import java.io.*;
-import java.math.BigInteger;
-import java.util.*;
-public class Main {
+public class Baekjoon23234 {
     public static void main(String[] args)  {
         System.out.println("The world says hello!");
     }
 }
-
-
-
-
-
-
-
