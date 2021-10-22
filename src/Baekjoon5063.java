@@ -1,8 +1,6 @@
-import java.io.*;
-import java.math.BigInteger;
 import java.util.*;
-public class Main {
-    public static void main(String[] args)  {
+public class Baekjoon5063 {
+    public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         int n = Sc.nextInt();
         int noAd, goAd, adMoney;
@@ -12,7 +10,7 @@ public class Main {
             adMoney = Sc.nextInt();
             if (noAd + adMoney > goAd) {
                 System.out.println("do not advertise");
-            } else if (goAd> noAd + adMoney) {
+            } else if (goAd >noAd + adMoney) {
                 System.out.println("advertise");
             } else {
                 System.out.println("does not matter");
@@ -20,10 +18,3 @@ public class Main {
         }
     }
 }
-
-
-
-
-
-
-
