@@ -1,15 +1,14 @@
-import java.io.*;
 
 import java.util.*;
-public class Main {
+public class Baekjoon2010 {
     public static void main(String[] args)  {
         Scanner Sc = new Scanner(System.in);
         int n = Sc.nextInt();
         int[] a = new int[n];
         int result = 0;
         for (int i = 0; i < n; i++) {
-            a[i] = Sc.nextInt(); // 1
-            result += a[i]; //
+            a[i] = Sc.nextInt();
+            result += a[i];
         }
         System.out.println(result-n+1);
 
@@ -17,10 +16,3 @@ public class Main {
 
     }
 }
-
-
-
-
-
-
-
