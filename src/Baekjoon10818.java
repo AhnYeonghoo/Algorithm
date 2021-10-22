@@ -1,7 +1,5 @@
-import java.io.*;
-import java.math.BigInteger;
 import java.util.*;
-public class Main {
+public class Baekjoon10818 {
     public static void main(String[] args)  {
         Scanner Sc = new Scanner(System.in);
         int n = Sc.nextInt();
@@ -12,17 +10,10 @@ public class Main {
             arr[i] = Sc.nextInt();
             if(arr[i] > max)
                 max = arr[i];
-             if(arr[i] < min)
+            if(arr[i] < min)
                 min = arr[i];
         }
         System.out.println(min+" "+max);
 
     }
 }
-
-
-
-
-
-
-
