@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class Baekjoon4344 {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         int c = Sc.nextInt(); //처음 입력받을 수
@@ -26,22 +26,3 @@ public class Main {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
