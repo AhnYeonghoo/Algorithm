@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class Baekjoon11718 {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         while(Sc.hasNext()) {
@@ -10,20 +10,3 @@ public class Main {
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
