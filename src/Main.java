@@ -1,19 +1,19 @@
-import java.io.*;
+import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.*;
 public class Main {
-    public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(System.in);
-        BigInteger a = sc.nextBigInteger();
-        char ch =sc.next().charAt(0);
-        BigInteger b = sc.nextBigInteger();
-        if (ch == '*')
-            System.out.println(a.multiply(b));
-        else
-            System.out.println(a.add(b));
+    public static void main(String[] args)  {
+        Scanner Sc = new Scanner(System.in);
+        BigDecimal n = Sc.nextBigDecimal();
+        BigDecimal one = new BigDecimal("1");
+        BigDecimal two = new BigDecimal("2");
+        BigDecimal result = (one.divide(two.pow(n.intValue())));
+        System.out.println(new BigDecimal(result.toString()).toPlainString());
 
 
     }
+
+
 }
 
 
