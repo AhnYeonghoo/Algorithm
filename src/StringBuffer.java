@@ -2,6 +2,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StringBuffer {
+    public Object append;
+
+    public StringBuffer(String abc) {
+    }
+
     static ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<>();
         for (String x : str) {
