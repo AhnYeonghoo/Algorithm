@@ -1,7 +1,6 @@
 import java.util.*;
 public class Baekjoon8370 {
     static int solution (int n1, int k1, int n2, int k2) {
-        int answer = 0;
         int sum = 0;
         for (int i = 0; i < n1; i++) {
             sum += k1;
@@ -9,9 +8,8 @@ public class Baekjoon8370 {
         for (int i = 0; i < n2; i++) {
             sum += k2;
         }
-        answer = sum;
 
-        return answer;
+        return sum;
 
     }
     public static void main(String[] args) {
