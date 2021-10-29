@@ -1,13 +1,9 @@
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.MathContext;
-import java.math.RoundingMode;
 import java.util.*;
 import java.util.regex.*;
 import java.lang.*;
 import java.io.*;
 
-public class Main {
+public class Baekjoon1712 {
     public static void main(String[] args)  {
         Scanner sc = new Scanner(System.in);
         long a = sc.nextLong(); // 상품 고정비용
@@ -20,16 +16,9 @@ public class Main {
             return;
         }
         while (fixed >= count * c) {
-                fixed += b;
-                count++;
+            fixed += b;
+            count++;
         }
         System.out.println(count);
     }
 }
-
-
-
-
-
-
-

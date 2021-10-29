@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 public class BigFactorial {
-    public staicc void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         for(int i = 1; i <100; i++) {
             System.out.printf("%d!=%s%n", i, calcFactorial(i));
             Thread.sleep(300);
