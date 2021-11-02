@@ -1,17 +1,9 @@
-import java.awt.*;
-import java.awt.event.*;
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.MathContext;
-import java.math.RoundingMode;
-import java.time.LocalTime;
-import java.time.temporal.ChronoUnit;
 import java.util.*;
 import java.util.regex.*;
 import java.lang.*;
 import java.io.*;
 
-public class Main {
+public class Baekjoon2884 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -32,4 +24,3 @@ public class Main {
 
     }
 }
-
