@@ -1,16 +1,10 @@
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.MathContext;
-import java.math.RoundingMode;
-import java.time.LocalTime;
-import java.time.temporal.ChronoUnit;
 import java.util.*;
 import java.util.List;
 import java.util.regex.*;
 import java.lang.*;
 import java.io.*;
 
-public class Main {
+public class Baekjoon23246 {
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
@@ -45,7 +39,8 @@ public class Main {
                     int tmpddplus = ddplus[j];
                     ddplus[j] = ddplus[j + 1];
                     ddplus[j + 1] = tmpddplus;
-                } else if (dd[j] == dd[j + 1]) {
+                }
+                else if (dd[j] == dd[j + 1]) {
                     if (ddplus[j] > ddplus[j + 1]) {
                         int tmp = number[j];
                         number[j] = number[j + 1];
@@ -56,7 +51,8 @@ public class Main {
                         int tmpddplus = ddplus[j];
                         ddplus[j] = ddplus[j + 1];
                         ddplus[j + 1] = tmpddplus;
-                    } else if (dd[j] == dd[j + 1] && ddplus[j] == ddplus[j + 1]) {
+                    }
+                    else if (dd[j] == dd[j + 1] && ddplus[j] == ddplus[j + 1]) {
                         if (number[j] > number[j + 1]) {
                             int tmp = number[j];
                             number[j] = number[j + 1];
@@ -78,7 +74,3 @@ public class Main {
 
     }
 }
-
-
-
-
